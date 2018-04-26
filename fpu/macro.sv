@@ -8,7 +8,7 @@
 
  /* Exponent size macro.
   */
-`define EXP_SIZE(bintess) (bitness == 256? 19: bitness == 128? 15: bitness == 64? 11: bitness == 32? 8: 5)
+`define EXP_SIZE(bitness) (bitness == 256? 19: bitness == 128? 15: bitness == 64? 11: bitness == 32? 8: 5)
 
 /* Mantissa size macro.
  */
